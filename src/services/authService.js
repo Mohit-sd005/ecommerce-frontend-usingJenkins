@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8099/ecommerce-frontend-usingJenkins/auth";
+const API_URL = "http://localhost:8099/auth";
 
 
 export const login = async (username, password) => {

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Use the correct base URL for cart operations
-const CART_API_URL = "http://localhost:8099/ecommerce-frontend-usingJenkins/api/cart";
+const CART_API_URL = "http://localhost:8099/api/cart";
 
 export const addToCart = async (userId, productId) => {
   return await axios.post(`${CART_API_URL}/add`, {
